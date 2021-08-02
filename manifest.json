@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Simple Site Blocker",
+  "version": "1.0.0",
+  "description": "Simple Site Blocker",
+  "short_name": "ssb",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["main.js"]
+    }
+  ]
+}

@@ -4,7 +4,7 @@ function main() {
   const { origin } = new URL(window.location.href);
   blocked.forEach((s) => {
     if (origin.includes(s)) {
-      window.location.href = "about:blank";
+      window.location.replace("https://www.youtube.com/watch?v=waAlgFq9Xq8");
     }
   });
 }
